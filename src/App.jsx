@@ -1,19 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Navbar from './components/Navbar'
-import { list, list2 } from './utils/data'
+import { list, list2,list3 } from './utils/data'
 import Cards from './components/Cardx'
-import Categories from './components/Categories'
+import Categories, { categories } from './components/Categories'
 import { useState, useEffect } from 'react'
 import styles from "./LoadingShimmer.module.css";
 
-
-// import { ShimmerPostList } from "react-shimmer-effects";
-
-// class Example extends Component {
-//   render() {
-//     return <ShimmerPostList postStyle="STYLE_FOUR" col={3} row={2} gap={30} />;
-//   }
-// }
 
 
 
@@ -23,10 +15,12 @@ function App() {
 
   const handleFilterClick = (filterName) => {
     // Filter the homes based on the selected filter
-    if (filterName === 'Shared homes') {
-      setSelectedFilter(homes.filter((home) =>{list2}));
-    } else if (filterName === 'OMG!') {
-      setSelectedFilter(homes.filter((home) =>{list}));
+    if (filterName === 'Lake') {
+      setSelectedFilter(categories.filter((home) =>{console.log(home==list2,"--jshfjhsjdhjhjfhdsjhjg")}));
+    } else if (filterName === 'Camping') {
+      setSelectedFilter(categories.filter((home) =>{home.list}));
+    }else if (filterName === "River"){
+      selectedFilter(categories.filter((home)=> {home.list3}))
     }
     // Add more conditions for other filters if needed
   };
@@ -60,14 +54,16 @@ function App() {
             <Navbar />
 
             <Categories
-              selectedFilter={selectedFilter}
-              setSelectedFilter={setSelectedFilter}
+               selectedFilter={selectedFilter}
+               setSelectedFilter={setSelectedFilter}
+            
             />
           </div>
 
 
           {/* <Cards list={list} /> */}
-          {selectedFilter == 0 ? <Cards list={list} /> : <Cards list={list2} />}
+          {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />}
+          {/* <homelist homes={fiterhome} fiters={filters} onFilterClick={handleClick}> */}
         </div>
       )
       }

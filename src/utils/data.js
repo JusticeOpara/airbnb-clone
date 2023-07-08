@@ -286,3 +286,60 @@ export const list = [
   },
   
 ];
+
+
+export const list3 =[
+  {
+    rating: "4",
+    desc: "Beach and Sunset Views",
+    imgSrc: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+
+    ],
+    price: "360",
+    date: "25-20 May",
+    title: "Hotel 3",
+  },
+  {
+    rating: "4",
+    desc: "Beach and Ocean View",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-546923400311446203/original/4c43b516-a11b-49bb-a2ed-d4b0c8cc34a5.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-546923400311446203/original/239adad6-2478-45c8-9c9b-bd3527b792ff.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-546923400311446203/original/2332cde9-89bb-46d5-b803-a1f91e7e12d9.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-546923400311446203/original/b285d6e9-7f33-4c4e-8b84-2dae13a9f5d1.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-47025046/original/7f98dcc6-18f9-4cf6-8f83-798c20f1ba7f.jpeg"
+
+    ],
+    price: "200",
+    date: "15-20 May",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "4",
+    desc: "Beach and Ocean Views",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48610879/original/7370ef7f-6f1e-4d7a-a358-095523ba3dd8.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48610879/original/190d8f6b-9a8f-44e2-a0cb-983e271d814f.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48610879/original/8052b41f-312d-4aae-bfff-1e21a203a082.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48610879/original/50a5d2e3-9089-4dd1-b9bd-12c5892e6ad0.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48610879/original/69dcd678-fff4-4905-9c3b-ab294cf8de4c.jpeg"
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "4",
+    desc: "Beach and Sunset Views",
+    imgSrc: [
+      // "https://www.airbnb.com/rooms/43629767?adults=1&category_tag=Tag%3A8661&children=0&enable_m3_private_room=true&infants=0&pets=0&search_mode=flex_destinations_search&check_in=2023-10-21&check_out=2023-10-26&source_impression_id=p3_1688720439_K5tzZmTdIvoLaRBh&previous_page_section_name=1000&federated_search_id=181ff24c-fa39-47e7-9f34-f4ae8165d4f5",
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lpibo-ew-1656015868.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqg5siFywtSULLeH0eaN3k6cBQy_HSnJpJGQ&usqp=CAU",
+    ],
+    price: "135",
+    date: "10-20 Oct",
+    title: "Hotel 3",
+  },
+]
