@@ -5,7 +5,7 @@ import { FaSkiing } from 'react-Icons/fa';
 import { BsSnow } from 'react-Icons/bs';
 import { IoDiamond } from 'react-Icons/io5';
 import { MdOutlineVilla } from 'react-Icons/md';
-// import CategoryBox from "./CategoryBox";
+// import {HiOutlineFire} from "react-Icons/hi"
 import Container from "./Container";
 
 export const categories = [
@@ -14,6 +14,11 @@ export const categories = [
         Icon: TbBeach,
         description: 'This property is close to the beach!',
     },
+    // {
+    //   label: 'Trending',
+    //   Icon:  
+    //   description:'This property is trending '
+    // },
     {
         label: 'Windmills',
         Icon: GiWindmill,
@@ -93,7 +98,7 @@ const Categories = ({ selectedFilter, setSelectedFilter }) => {
     return (
         <Container>
 
-            <div className="pt-4  flex flex-row items-center justify-between overflow-x-auto">
+            <div className="pt-[0.5rem]  flex flex-row items-center justify-between overflow-x-auto">
                 {categories.map(item => {
                     const { label, Icon, description } = item
 
@@ -101,8 +106,7 @@ const Categories = ({ selectedFilter, setSelectedFilter }) => {
                         <div key={label} className={`flex  flex-col  items-center  justify-center gap-2 p-3 border-b-2
                     hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 
                     ${label == selectedFilter && "border-b-neutral-800 text-neutral-800"}`}
-
-                            onClick={() => { setSelectedFilter(i); }}>
+                     onClick={() => { setSelectedFilter(label); }}>
 
                             <Icon size={26} />
 

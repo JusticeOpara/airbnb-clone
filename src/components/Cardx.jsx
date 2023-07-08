@@ -40,11 +40,11 @@ function Card({ list }) {
 
     <Container>
       <div className="  grid  grid-cols-1  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4
-                       xl:grid-cols-4 2xl:grid-cols-6 gap-8 bg-blxue-500 mt-[200px]">
+                       xl:grid-cols-4 2xl:grid-cols-6 gap-8 bg-blxue-500 mt-[200px] bg-blue-200">
 
         {list?.map((card, dex) => (
 
-          <div key={dex} className="col-span-1 cursor-pointer group bg-rexd-300 ">
+          <div key={dex} className="col-span-1 cursor-pointer group bg-white ">
             <div className="flex flex-col gap-0 w-full h-full" >
 
 
@@ -101,17 +101,17 @@ function Card({ list }) {
 
 
               <div className="flex justify-between items-start">
-                <h3 className="" >{card.title}</h3>
+                <h3 className="font-extrabold text-[100%]" >{card.title}</h3>
                 <div className="grid grid-cols-2 items-center gap-[0.25rem]">
                   <AiTwotoneStar />
                   <p>{card.rating}</p>
                 </div>
 
               </div>
-              <p className="m-0 ">{card.desc}</p>
-              <p className="m-0">{card.date}</p>
+              <p className="m-0 text-gray-700 text-sm font-semibold">{card.desc}</p>
+              <p className="m-0 text-gray-700 text-sm font-semibold">{card.date}</p>
               <p className="m-[0.2rem] text-base">
-                <span className="font-[600]">₹{card.price}</span> night
+                <span className="font-extrabold text-[100%]">₹{card.price}</span> night
               </p>
 
             </div>

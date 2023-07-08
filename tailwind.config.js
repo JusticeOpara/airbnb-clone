@@ -5,9 +5,16 @@ export default {
     extend: {
       fontFamily: {
         custom: ['Montserrat', 'sans-serif'],
-      },
+      }
+      
     },
   },
   plugins: [],
 }
 
+// keyframes: {
+//   shimmer: {
+//     '0%': { 'background-position': '-1000px 0' },
+//     '100%': { 'background-position': '1000px 0' },
+//   },
+// },
