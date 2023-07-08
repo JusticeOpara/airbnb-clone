@@ -31,30 +31,35 @@ export default function ImageContainer({ listOfImages }) {
 
 	return (
 		<div
-			className='aspect-square w-full relative overflow-hidden rounded-xl'
+			className='aspect-square w-full relative overflow-hidden rounded-xl bg-red-700'
 			onMouseEnter={() => setShowNavigation(true)}
 			onMouseLeave={() => setShowNavigation(false)}>
-			<button className='absolute bg-red-500'>
-				{showNavigation && currentIndex > 0 && (
-					<GrFormPrevious onClick={handlePrevious} />
+		
+         {showNavigation && currentIndex >0 && (
+               <button className='flex justify-center items-center absolute top-[6rem] w-[15%] h-[15%] lekft-[12rem] z-50 rounded-[50%] 
+              border-1 border-solid transition-[0.25] m-0 p-0 cursor-pointer bg-white'>
+					<GrFormPrevious onClick={handlePrevious} size={`25px`}  />
+               </button>
 				)}
-			</button>
+			
 
 			<img
 				className='object-cover h-full w-full transition'
 				src={imageToDisplay}
-				alt=''
+				alt='' 
 			/>
-
-			<button className='absolute top-5  left-20 z-50 bg-red-500'>
+			
 				{showNavigation && currentIndex < listOfImages.length - 1 && (
-					<GrFormNext onClick={handleGoToNext} />
+               <button className='flex justify-center items-center absolute top-[6rem] w-[15%] h-[15%] left-[12rem] z-50 rounded-[50%] 
+              border-1 border-solid transition-[0.25] m-0 p-0 cursor-pointer bg-white'>
+					<GrFormNext onClick={handleGoToNext} size={`25px`}  />
+               </button>
 				)}
-			</button>
+			
 			<div className='absolute top-3 right-3 bg-red-900 z-50 text-3xl '>
 				<AiOutlineHeart
 					size={28}
-					className='fill-white absolute -top-[2px] -right-[2px]'
+					className='fill-white absolute top-[2px] -right-[2px]'
 				/>
 			</div>
 		</div>

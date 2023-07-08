@@ -1,35 +1,15 @@
-import { useEffect, useState } from "react";
+
 import Container from "./Container";
-import { AiOutlineHeart, AiTwotoneStar } from "react-icons/ai";
+import {  AiTwotoneStar } from "react-icons/ai";
 import { list } from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 function Card() {
-	// const [showButtons, setShowButtons] = useState(false);
 
-	// const goToNextImage = () => {
-	// 	// if (currentIndex < list.imageSrc.length - 1) {
-	// 	// 	setCurrentIndex(currentIndex + 1);
-	// 	// }
-	// };
-
-	// const goToPreviousImage = () => {
-	// 	if (currentIndex > 0) {
-	// 		setCurrentIndex(currentIndex - 1);
-	// 	}
-	// };
-
-	// const handleMouseEnter = () => {
-	// 	setShowButtons(true);
-	// };
-
-	// const handleMouseLeave = () => {
-	// 	setShowButtons(false);
-	// };
 	return (
 		<Container>
 			<div
-				className='  grid  grid-cols-1  sm:grid-cols-2  md:grid-cols-3  lg:grid-cols-4
+				className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
                        xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] bg-blue-200'>
 				{list?.map((card, dex) => (
 					<div

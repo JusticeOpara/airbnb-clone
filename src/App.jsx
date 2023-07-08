@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import { list, list2,list3 } from './utils/data'
+import { list, list2 } from './utils/data'
 import Cards from './components/Cardx'
 import Categories, { categories } from './components/Categories'
 import { useState, useEffect } from 'react'
