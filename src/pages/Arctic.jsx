@@ -1,18 +1,18 @@
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import {list4 } from "../utils/data";
+import { list5 } from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 
 
-function Omg() {
+function Arctic() {
 
     return (
         <Container>
             <div
                 className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
                        xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] mb-[200px]'>
-                {list4?.map((card, dex) => (
+                {list5?.map((card, dex) => (
                     <div
                         key={dex}
                         className='col-span-1 cursor-pointer group bg-white '>
@@ -59,4 +59,4 @@ function Omg() {
     );
 }
 
-export default Omg;
+export default Arctic;
