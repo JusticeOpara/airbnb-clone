@@ -1,30 +1,20 @@
 import React from 'react';
 import Navbar from './components/Navbar'
 import { list, list2 } from './utils/data'
-import Cards from './components/Cardx'
-import Categories, { categories } from './components/Categories'
+import Cards from './pages/Cardx'
+import Categories from './components/Categories'
 import { useState, useEffect } from 'react'
 import styles from "./LoadingShimmer.module.css";
- import Footer from './components/Footer';
- import { BrowserRouter , Link, Routes, Route } from 'react-router-dom';
-
-
+import Footer from './components/Footer';
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+import Map from './components/Map';
+import Camping from './pages/Camping';
+import Omg from './pages/OMG';
 
 function App() {
-  const [selectedFilter, setSelectedFilter] = useState(0);
+  // const [selectedFilter, setSelectedFilter] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  // const handleFilterClick = (filterName) => {
-  //   // Filter the homes based on the selected filter
-  //   if (filterName === 'Lake') {
-  //     setSelectedFilter(categories.filter((home) => { console.log(home == list2, "--jshfjhsjdhjhjfhdsjhjg") }));
-  //   } else if (filterName === 'Camping') {
-  //     setSelectedFilter(categories.filter((home) => { home.list }));
-  //   } else if (filterName === "River") {
-  //     selectedFilter(categories.filter((home) => { home.list3 }))
-  //   }
-  //   // Add more conditions for other filters if needed
-  // };
 
 
   useEffect(() => {
@@ -44,34 +34,30 @@ function App() {
   return (
 
     <BrowserRouter>
-      {isLoading ? (
 
-        <LoadingShimmer />
+      {isLoading ? (<LoadingShimmer />) : (
 
-      ) : (
         <div className='font-custom'>
-
           <div className="fixed w-full bg-white z-10 shadow-sm top-0  ">
-
             <Navbar />
-
-            <Categories
-              selectedFilter={selectedFilter}
-              setSelectedFilter={setSelectedFilter}
-
-            />
+            <Categories />
           </div>
 
+          <Routes>
+            <Route path="/" element={<Cards />} />
+            <Route path="/camping" element={<Camping />} />
+            <Route path="/omg" element={<Omg />} />
 
-          
-          {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />}
+          </Routes>
 
+          {/* {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />} */}
+          {/* <Map /> */}
 
-           <Footer /> 
+          <Footer />
         </div>
 
       )
-}
+      }
     </BrowserRouter>
   )
 }

@@ -1,7 +1,7 @@
 
-import Container from "./Container";
+import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import { list } from "../utils/data";
+import { list2 } from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 
@@ -13,7 +13,7 @@ function Card() {
 			<div
 				className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
                        xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] mb-[200px]'>
-				{list?.map((card, dex) => (
+				{list2?.map((card, dex) => (
 					<div
 						key={dex}
 						className='col-span-1 cursor-pointer group bg-white '>
@@ -38,14 +38,15 @@ function Card() {
 									<p>{card.rating}</p>
 								</div>
 							</div>
-							<p className='m-0 text-gray-700 text-sm font-semibold'>
+							{/* <p className='m-0 text-gray-700 text-sm font-semibold'>
 								{card.desc}
-							</p>
+							</p> */}
+							<p className="m-0 text-gray-700 text-sm font-semibold">{card.host}</p>
 							<p className='m-0 text-gray-700 text-sm font-semibold'>
 								{card.date}
 							</p>
-							<p className='m-[0.2rem] text-base'>
-								<span className='font-extrabold text-[100%]'>
+							<p className='m-[0.2rem] text-sm font-medium'>
+								<span className='font-bold text-[100%]'>
 									${card.price}
 								</span>{" "}
 								night

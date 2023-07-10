@@ -7,7 +7,7 @@ export default function Footer() {
         <>
             <Container>
                 <footer className="flex flex-row items-center fixed w-[90%] z-10 
-                 bottom-0  bg-white shadow-sm py-4 border-b-[1px]  justify-between gap-3 md:gap-0">
+                 bottom-0  bg-white shadow-sm py-4 border-t-[1px]  justify-between gap-3 md:gap-0">
                     <div className=" bg-slate-500 w-full flex justify-between items-center ">
                         <div className="flex justify-start items-center">
                             <p className="text-[14px] ">
