@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import { list, list2 } from './utils/data'
 import Cards from './pages/Cardx'
 import Categories from './components/Categories'
 import { useState, useEffect } from 'react'
@@ -9,8 +8,9 @@ import Footer from './components/Footer';
 import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
 import Map from './components/Map';
 import Camping from './pages/Camping';
-import Omg from './pages/OMG';
-
+import Omg from './pages/Omg';
+import Arctic from './pages/Arctic';
+// git clone https://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@github.com/justiceopara/airbnb-clone.git
 function App() {
   // const [selectedFilter, setSelectedFilter] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -47,6 +47,7 @@ function App() {
             <Route path="/" element={<Cards />} />
             <Route path="/camping" element={<Camping />} />
             <Route path="/omg" element={<Omg />} />
+            <Route path="/arctic" element={<Arctic/>}/>
 
           </Routes>
 

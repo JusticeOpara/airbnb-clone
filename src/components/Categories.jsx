@@ -66,7 +66,7 @@ export const categories = [
 const Categories = () => {
 	return (
 		<Container>
-			<div className="flex flex-row items-center">
+			<div className="flex flex-row items-center ">
 
 
 				<div className='pt-[0.5rem]  flex flex-row items-center justify-between overflow-x-auto overflow-x-hidden'>
@@ -75,7 +75,8 @@ const Categories = () => {
 
 						return (
 
-							<div key={label} className='flex flex-col  items-center  justify-center gap-2 p-3 border-b-2 hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 '
+							<div key={label} className='flex flex-col  text-center items-center  justify-center gap-4 p-3 border-b-2 
+							hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 '
 							// onClick={() => { setSelectedFilter(label); }}
 							>
 
@@ -85,8 +86,8 @@ const Categories = () => {
 
 
 								<div
-									className="font-black text-[12px]" >
-									{label}
+									className="font-black grey text-[11px] text-center" >
+									<span className="text-center inline-block">{label}</span>
 								</div>
 							</div>
 						);

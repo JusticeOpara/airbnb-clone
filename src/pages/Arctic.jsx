@@ -1,6 +1,6 @@
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import { list5 } from "../utils/data";
+import { arctic } from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 
@@ -12,7 +12,7 @@ function Arctic() {
             <div
                 className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
                        xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] mb-[200px]'>
-                {list5?.map((card, dex) => (
+                {arctic?.map((card, dex) => (
                     <div
                         key={dex}
                         className='col-span-1 cursor-pointer group bg-white '>
