@@ -5,7 +5,8 @@ import Cards from './components/Cardx'
 import Categories, { categories } from './components/Categories'
 import { useState, useEffect } from 'react'
 import styles from "./LoadingShimmer.module.css";
-
+ import Footer from './components/Footer';
+ import { BrowserRouter , Link, Routes, Route } from 'react-router-dom';
 
 
 
@@ -13,17 +14,17 @@ function App() {
   const [selectedFilter, setSelectedFilter] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
-  const handleFilterClick = (filterName) => {
-    // Filter the homes based on the selected filter
-    if (filterName === 'Lake') {
-      setSelectedFilter(categories.filter((home) =>{console.log(home==list2,"--jshfjhsjdhjhjfhdsjhjg")}));
-    } else if (filterName === 'Camping') {
-      setSelectedFilter(categories.filter((home) =>{home.list}));
-    }else if (filterName === "River"){
-      selectedFilter(categories.filter((home)=> {home.list3}))
-    }
-    // Add more conditions for other filters if needed
-  };
+  // const handleFilterClick = (filterName) => {
+  //   // Filter the homes based on the selected filter
+  //   if (filterName === 'Lake') {
+  //     setSelectedFilter(categories.filter((home) => { console.log(home == list2, "--jshfjhsjdhjhjfhdsjhjg") }));
+  //   } else if (filterName === 'Camping') {
+  //     setSelectedFilter(categories.filter((home) => { home.list }));
+  //   } else if (filterName === "River") {
+  //     selectedFilter(categories.filter((home) => { home.list3 }))
+  //   }
+  //   // Add more conditions for other filters if needed
+  // };
 
 
   useEffect(() => {
@@ -41,7 +42,8 @@ function App() {
   };
 
   return (
-    <>
+
+    <BrowserRouter>
       {isLoading ? (
 
         <LoadingShimmer />
@@ -54,20 +56,23 @@ function App() {
             <Navbar />
 
             <Categories
-               selectedFilter={selectedFilter}
-               setSelectedFilter={setSelectedFilter}
-            
+              selectedFilter={selectedFilter}
+              setSelectedFilter={setSelectedFilter}
+
             />
           </div>
 
 
-          {/* <Cards list={list} /> */}
+          
           {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />}
-          {/* <homelist homes={fiterhome} fiters={filters} onFilterClick={handleClick}> */}
+
+
+           <Footer /> 
         </div>
+
       )
-      }
-    </>
+}
+    </BrowserRouter>
   )
 }
 

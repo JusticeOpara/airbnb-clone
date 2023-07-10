@@ -3,8 +3,6 @@ import { BiSearch } from 'react-icons/bi';
 import { AiOutlineMenu } from "react-icons/ai";
 import Avatar from '../assets/placeholder.jpg';
 import airbnbLogo from "../assets/logo.png"
-// import heroImg1 from '../assets/hero1.png'
-// import Categories from "./Categories";
 import Container from "./Container";
 
 
@@ -13,8 +11,7 @@ export default function Navbar() {
    
 
     return (
-        // <div>
-        // <div className="fixed w-full bg-white z-10 shadow-sm top-0  ">
+        
             <div className=" py-4 border-b-[1px]">
 
                 <Container>
@@ -80,10 +77,6 @@ export default function Navbar() {
                 </Container>
             </div>
 
-            
-
-
-        // </div >
 
     )
 

@@ -4,13 +4,15 @@ import {  AiTwotoneStar } from "react-icons/ai";
 import { list } from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
+
+
 function Card() {
 
 	return (
 		<Container>
 			<div
 				className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-                       xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] bg-blue-200'>
+                       xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] mb-[200px]'>
 				{list?.map((card, dex) => (
 					<div
 						key={dex}
@@ -44,7 +46,7 @@ function Card() {
 							</p>
 							<p className='m-[0.2rem] text-base'>
 								<span className='font-extrabold text-[100%]'>
-									₹{card.price}
+									${card.price}
 								</span>{" "}
 								night
 							</p>
@@ -52,6 +54,7 @@ function Card() {
 					</div>
 				))}
 			</div>
+			
 		</Container>
 	);
 }
