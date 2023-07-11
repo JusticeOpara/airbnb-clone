@@ -6,11 +6,12 @@ import { useState, useEffect } from 'react'
 import styles from "./LoadingShimmer.module.css";
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import Map from './components/Map';
 import Camping from './pages/Camping';
 import Omg from './pages/Omg';
 import Arctic from './pages/Arctic';
 import Design from './pages/Design';
+import Domes from './pages/Domes';
+import Map from './components/Map';
 // git clone https://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@github.com/justiceopara/theprojectname.git
 function App() {
   // const [selectedFilter, setSelectedFilter] = useState(0);
@@ -50,11 +51,12 @@ function App() {
             <Route path="/omg" element={<Omg />} />
             <Route path="/arctic" element={<Arctic />} />
             <Route path="/design" element={<Design/>} />
-
+             <Route path="/domes" element={<Domes/>}/>
+             <Route path="/map" element={<Map/>}/>
           </Routes>
 
 
-          {/* <Map /> */}
+          
 
           <Footer />
         </div>

@@ -1,12 +1,11 @@
-
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import { list2 } from "../utils/data";
+import { lakefront } from "../utils/data2";
 import ImageContainer from "./ImageContainer";
 
 
 
-function Card() {
+function Lakefront() {
 
 	return (
 		<Container>
@@ -48,4 +47,4 @@ function Card() {
 	);
 }
 
-export default Card;
+export default Lakefront;

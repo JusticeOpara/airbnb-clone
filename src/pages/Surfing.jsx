@@ -1,4 +1,3 @@
-
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
 import { list2 } from "../utils/data";

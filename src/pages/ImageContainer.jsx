@@ -61,8 +61,8 @@ export default function ImageContainer({ listOfImages }) {
 				alt=''
 			/>
 
-			<div className=" flex flex-row justify-center text-center w-full bottom-1 absolute">
-				<span className=" text-white text-4xl font-extrabold z-10 cursor-pointer"> 
+			<div className=" flex flex-row justify-center text-center w-full bottom-1 absolute ">
+				<span className=" opacity-70 text-white text-4xl font-extrabold z-10 cursor-pointer"> 
 					..... 
 				</span>
 
@@ -71,8 +71,8 @@ export default function ImageContainer({ listOfImages }) {
 			{showNavigation && currentIndex < listOfImages.length - 1 && (
 				<div className="flex justify-end items-center">
 					<button className='flex justify-center items-center absolute   z-[5] rounded-[50%] 
-              border-1 border-solid transition-[0.25] m-0 p-0 cursor-pointer bg-white'>
-						<GrFormNext onClick={handleGoToNext} size={`25px`} />
+              border-1 border-solid transition-[0.25] mr-3 p-0 cursor-pointer bg-white'>
+						<GrFormNext onClick={handleGoToNext} size={`25px`} className='' />
 					</button>
 				</div>
 			)}
