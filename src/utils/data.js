@@ -4,15 +4,15 @@ export const arctic = [
     desc: "Beach and Sunset Views",
     host: "Hosted By Caleb",
     imgSrc: [
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/4ee10ddd-a741-4cd1-bf5d-e5955f6072ff.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/f4d43f95-7293-4891-b98f-2c8eba87c7ad.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/69b22f1e-bf34-4f72-a2c6-a45bbc6e99dd.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/a0ea0b2e-dd6e-42a8-ab6a-11fd4dc7b5e3.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/c5984fbb-4337-4feb-8ebd-55a848e0a6f3.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/43a11a8d-2767-4422-9cae-d5e6a9fdbdac.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/1b59ed5d-f46b-476c-b4fe-c2f37661c193.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/27ca2ff6-63a6-4f85-a7c4-80b20742965b.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/519414f5-cee9-4447-b18e-67884238d883.jpeg"
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/4ee10ddd-a741-4cd1-bf5d-e5955f6072ff.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/f4d43f95-7293-4891-b98f-2c8eba87c7ad.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/69b22f1e-bf34-4f72-a2c6-a45bbc6e99dd.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/a0ea0b2e-dd6e-42a8-ab6a-11fd4dc7b5e3.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/c5984fbb-4337-4feb-8ebd-55a848e0a6f3.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/43a11a8d-2767-4422-9cae-d5e6a9fdbdac.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/1b59ed5d-f46b-476c-b4fe-c2f37661c193.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/27ca2ff6-63a6-4f85-a7c4-80b20742965b.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-54299560/original/519414f5-cee9-4447-b18e-67884238d883.jpeg"
     ],
     price: "113",
     date: "june 17-23",
@@ -59,14 +59,14 @@ export const arctic = [
     desc: "Beach and Sunset Views",
     host: "Hosted By Justin",
     imgSrc: [
-    "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/f8ec4e7c-dacf-49f6-8333-090730c96bd1.jpeg",
-    "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/ff4a81e4-42a9-43a4-a860-d5883f947feb.jpeg",
-    "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/57be1650-68fe-40cf-a562-8c4f6739cd5a.jpeg",
-    "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/cb3bc708-462f-4e42-a6f7-663815bbf4ec.jpeg",
-    "https://a0.muscache.com/im/pictures/016412b5-4deb-4f83-8bcd-d54a76d8851a.jpg",
-    "https://a0.muscache.com/im/pictures/ba240b2a-4ed2-4227-9b2d-c95d6c80e9f6.jpg",
-    "https://a0.muscache.com/im/pictures/cd51cece-7f3a-4c6a-94b8-bbc9d9309efa.jpg",
-    "https://a0.muscache.com/im/pictures/miso/Hosting-39908051/original/a21251da-9aa1-4a84-8338-245f523ddae7.jpeg"
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/f8ec4e7c-dacf-49f6-8333-090730c96bd1.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/ff4a81e4-42a9-43a4-a860-d5883f947feb.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/57be1650-68fe-40cf-a562-8c4f6739cd5a.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-873753656557869709/original/cb3bc708-462f-4e42-a6f7-663815bbf4ec.jpeg",
+      "https://a0.muscache.com/im/pictures/016412b5-4deb-4f83-8bcd-d54a76d8851a.jpg",
+      "https://a0.muscache.com/im/pictures/ba240b2a-4ed2-4227-9b2d-c95d6c80e9f6.jpg",
+      "https://a0.muscache.com/im/pictures/cd51cece-7f3a-4c6a-94b8-bbc9d9309efa.jpg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39908051/original/a21251da-9aa1-4a84-8338-245f523ddae7.jpeg"
     ],
     price: "211",
     date: "10-20 Oct",
@@ -93,13 +93,13 @@ export const arctic = [
     desc: "Beach and Ocean Views",
     host: "Hosted By Ginnais",
     imgSrc: [
-     "https://a0.muscache.com/im/pictures/miso/Hosting-777893022127585852/original/d19566fa-8e11-4636-a668-57bd6b8c52db.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-777893022127585852/original/efd9adbd-c9fc-45e0-a6a9-c0b0dab8161b.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/c553c050-9ecc-490e-902f-f51433fef711.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/f1329980-1e19-489e-8ff2-2e52851d5880.jpeg",
-     "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/8798c7e4-6b93-4a38-bd0b-f8469f16a97a.png",
-     "https://a0.muscache.com/im/pictures/633ae7b4-23de-4bc2-b154-e6a5ee87a04f.jpg",
-     
+      "https://a0.muscache.com/im/pictures/miso/Hosting-777893022127585852/original/d19566fa-8e11-4636-a668-57bd6b8c52db.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-777893022127585852/original/efd9adbd-c9fc-45e0-a6a9-c0b0dab8161b.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/c553c050-9ecc-490e-902f-f51433fef711.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/f1329980-1e19-489e-8ff2-2e52851d5880.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-888151529214233434/original/8798c7e4-6b93-4a38-bd0b-f8469f16a97a.png",
+      "https://a0.muscache.com/im/pictures/633ae7b4-23de-4bc2-b154-e6a5ee87a04f.jpg",
+
     ],
     price: "300",
     date: "25-20 May",
@@ -110,13 +110,13 @@ export const arctic = [
     desc: "Beach and Ocean Views",
     host: "Hosted By Sophie",
     imgSrc: [
-     "https://a0.muscache.com/im/pictures/389a9b8d-5bf7-42e3-a6ae-cd6cac47eecd.jpg",
-     "https://a0.muscache.com/im/pictures/06fa8c20-3de3-4740-b65f-87c19896a41a.jpg",
-     "https://a0.muscache.com/im/pictures/08d99edf-07bb-4d15-b5fd-f5d96206262a.jpg",
-     "https://a0.muscache.com/im/pictures/106616652/df17c56f_original.jpg",
-     "https://a0.muscache.com/im/pictures/c352ee66-e611-45c0-a1f6-b4abe173cd40.jpg",
-     "https://a0.muscache.com/im/pictures/8ed22519-fd19-42a3-b1e6-65875636cf43.jpg",
-     "https://a0.muscache.com/im/pictures/60efd515-ebdf-4991-ac87-e27be04e7485.jpg"
+      "https://a0.muscache.com/im/pictures/389a9b8d-5bf7-42e3-a6ae-cd6cac47eecd.jpg",
+      "https://a0.muscache.com/im/pictures/06fa8c20-3de3-4740-b65f-87c19896a41a.jpg",
+      "https://a0.muscache.com/im/pictures/08d99edf-07bb-4d15-b5fd-f5d96206262a.jpg",
+      "https://a0.muscache.com/im/pictures/106616652/df17c56f_original.jpg",
+      "https://a0.muscache.com/im/pictures/c352ee66-e611-45c0-a1f6-b4abe173cd40.jpg",
+      "https://a0.muscache.com/im/pictures/8ed22519-fd19-42a3-b1e6-65875636cf43.jpg",
+      "https://a0.muscache.com/im/pictures/60efd515-ebdf-4991-ac87-e27be04e7485.jpg"
     ],
     price: "300",
     date: "25-20 May",
@@ -144,10 +144,10 @@ export const arctic = [
     imgSrc: [
       "https://a0.muscache.com/im/pictures/prohost-api/Hosting-2296963/original/6f288071-8e96-4970-8898-b642b9baf2f1.jpeg",
       "https://a0.muscache.com/im/pictures/f76a7ae7-b1d3-4dc0-b80e-ba975be5557c.jpg",
-     "https://a0.muscache.com/im/pictures/67c3edeb-99bf-4dbd-95ec-6630103915cd.jpg",
-     "https://a0.muscache.com/im/pictures/402a2bf5-b789-40e3-a1ca-2a676deeb8f9.jpg",
-     "https://a0.muscache.com/im/pictures/feff3b98-f05c-4ef8-bc20-43082eaf2b47.jpg"
-     
+      "https://a0.muscache.com/im/pictures/67c3edeb-99bf-4dbd-95ec-6630103915cd.jpg",
+      "https://a0.muscache.com/im/pictures/402a2bf5-b789-40e3-a1ca-2a676deeb8f9.jpg",
+      "https://a0.muscache.com/im/pictures/feff3b98-f05c-4ef8-bc20-43082eaf2b47.jpg"
+
 
     ],
     price: "200",
@@ -176,13 +176,13 @@ export const arctic = [
     desc: "Beach and Ocean View",
     host: "Hosted By David",
     imgSrc: [
-    "https://a0.muscache.com/im/pictures/02c8508c-3877-4e48-b6d0-dfc05d5e3732.jpg",
-    "https://a0.muscache.com/im/pictures/4f628395-6a6c-48fa-b134-f67f1a4ec995.jpg",
-    "https://a0.muscache.com/im/pictures/f4d65d71-b34d-4a52-938c-b012f7a75bc7.jpg",
-    "https://a0.muscache.com/im/pictures/a7fcf98e-59b5-4035-b9df-d0a06109e202.jpg",
-    "https://a0.muscache.com/im/pictures/24b6d9ca-5b15-4ed8-9702-b608ea6400d1.jpg",
-    "https://a0.muscache.com/im/pictures/26f99cfe-be83-4db7-b555-7e97de9f590b.jpg",
-    "https://a0.muscache.com/im/pictures/miso/Hosting-899277878298862225/original/c785a18f-6b62-4cd1-b8eb-17ed99fdb988.jpeg",
+      "https://a0.muscache.com/im/pictures/02c8508c-3877-4e48-b6d0-dfc05d5e3732.jpg",
+      "https://a0.muscache.com/im/pictures/4f628395-6a6c-48fa-b134-f67f1a4ec995.jpg",
+      "https://a0.muscache.com/im/pictures/f4d65d71-b34d-4a52-938c-b012f7a75bc7.jpg",
+      "https://a0.muscache.com/im/pictures/a7fcf98e-59b5-4035-b9df-d0a06109e202.jpg",
+      "https://a0.muscache.com/im/pictures/24b6d9ca-5b15-4ed8-9702-b608ea6400d1.jpg",
+      "https://a0.muscache.com/im/pictures/26f99cfe-be83-4db7-b555-7e97de9f590b.jpg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-899277878298862225/original/c785a18f-6b62-4cd1-b8eb-17ed99fdb988.jpeg",
 
     ],
     price: "200",
@@ -194,25 +194,353 @@ export const arctic = [
     desc: "Beach and Ocean View",
     host: "Hosted By David",
     imgSrc: [
-   "https://a0.muscache.com/im/pictures/47e6e7db-b2ed-41d3-9942-23042772cda7.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/9d8b63a1-72d2-41ed-b32f-76cbf671fc73.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/5e3a0d68-d072-4f57-b6ab-3fbbce1059a4.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/89092604-b1f3-4e40-97e5-de4d8bbba8dc.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/c4e40d12-f517-4537-97a7-7a192cac46bb.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/0dcc2282-fb29-4582-ab79-f2658d5d0d13.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/0d885e78-c776-4431-a977-bbe38ace1b16.jpg?im_w=720",
-   "https://a0.muscache.com/im/pictures/e86a498c-a3b4-42c2-ac7a-855590b7c168.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/47e6e7db-b2ed-41d3-9942-23042772cda7.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/9d8b63a1-72d2-41ed-b32f-76cbf671fc73.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/5e3a0d68-d072-4f57-b6ab-3fbbce1059a4.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/89092604-b1f3-4e40-97e5-de4d8bbba8dc.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/c4e40d12-f517-4537-97a7-7a192cac46bb.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/0dcc2282-fb29-4582-ab79-f2658d5d0d13.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/0d885e78-c776-4431-a977-bbe38ace1b16.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/e86a498c-a3b4-42c2-ac7a-855590b7c168.jpg?im_w=720",
     ],
     price: "200",
     date: "june 17-23",
     title: "Villa in Ghana",
-  }, 
- 
+  },
+
 
 ];
 
 
+export const design = [
+  {
+    rating: "4.81",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Caleb",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/014df369-194e-47b1-9d5e-197a22ea9f40.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/de6ad764-8ab1-4318-a808-d667b5c9a423.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/ca3eff49-1d7b-4116-822a-0ad70b87f1f9.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/ca3eff49-1d7b-4116-822a-0ad70b87f1f9.jpg?im_w=720"
+    ],
+    price: "113",
+    date: "june 17-23",
+    title: "Vilhelmina Sweden",
+  },
+  {
+    rating: "4.45",
+    desc: "Beach and Ocean View",
+    host: "Hosted By Sophie",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/90b74311-6f55-41ea-8649-e0556b5c3e3e.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39787429/original/19b38ca5-c584-480e-a4cf-5622b7707a91.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39787429/original/ec9fa840-c880-457a-97b9-b21504761662.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-39787429/original/3c2a47b2-8c0c-483a-86af-0d5c6618274b.jpeg?im_w=720"
+    ],
+    price: "120",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "6.21",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Harden",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-741349420004012294/original/6ca1eca6-3526-4a98-bc82-3129dfec9c76.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-741349420004012294/original/07ce4419-f207-4aeb-9a9a-695b74bcb4bc.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-741349420004012294/original/458bafd5-7a33-4104-b1ac-a6973cd3cce0.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-741349420004012294/original/4be6996f-2809-4fa4-a122-251db3b82de1.jpeg?im_w=720"
+    ],
+    price: "212",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "4.69",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Justin",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/08e56940-5521-4bce-9929-f99e2aba446f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/b0086747-fb9d-4a40-bb75-a58f019a2f2f.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/295036d8-9dba-478c-8782-4bec377b37d8.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/1517a347-28e8-4e22-8cae-9cfb758be67f.jpg?im_w=720"
+    ],
+    price: "211",
+    date: "10-20 Oct",
+    title: "Apartment in ibadan",
+  },
+  {
+    rating: "54.4",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Ellis",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/monet/Select-4160599/original/02d36b9d-a7c8-4793-a7f9-d27ead7bb442?im_w=720",
+      "https://a0.muscache.com/im/pictures/monet/Select-4160599/original/b66f9309-f3f7-4b16-b23c-3ab00aa9b8b6?im_w=720",
+      "https://a0.muscache.com/im/pictures/97a1f5ba-d814-495d-9b10-1047c9655a75.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/52840130-1cf1-4a11-a0c5-44128ac3efe8.jpg?im_w=720"
 
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Vilhelmina Sweden",
+  },
+  {
+    rating: "453.1",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Ginnais",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/9d711935-b67b-48db-9738-f7f9ddac1455.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/95421613-ef38-4e71-928a-66ea6e4c1df6.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/7af8df42-6cdd-4e05-92d2-805dfeba1904.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/4e07bb64-208e-4b12-a9f4-e39efe7b923b.jpeg?im_w=720"
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "33.4",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Sophie",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/9291599a-be51-45bc-9f53-5db5009ae015.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/9a0d6d95-ebaa-43e7-a25f-c3ff7006cc72.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/ba95c746-0ea5-48fb-8848-459c6ff9a2c6.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/6add9e48-585e-499a-b346-98bcc0f8a7d4.jpg?im_w=720"
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "57.4",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Richard ",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/d987ff62-d4be-49e8-a762-428ae79b24af.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/35a1166d-3cc5-48ec-9f97-e25a6d8dcaea.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/380f8f3f-0ee7-4c2e-baec-ff971c6b6914.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/2710f2ea-edb6-484a-bf46-6ac0a8be7a9c.jpg?im_w=720"
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "6.6",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/de7f6d3c-0658-4e73-84d9-a756b496594b.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/1e5993cf-6fed-4541-b1f4-126f750d86c5.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/34929586/0a57a27b_original.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/33430591/ad2b3c7e_original.jpg?im_w=720"
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+
+  {
+    rating: "6.11",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-798497776360410638/original/627fb063-d2e0-4c2f-84da-2eef775e5d99.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-50396945/original/8686a478-717f-429a-8ff3-eeb3fb5a4f1d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-50396945/original/4ce55c91-745b-456a-b2be-086bfae30af2.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/prohost-api/Hosting-664307960162192552/original/b24fbd79-4189-44ab-9748-74d66f80d79b.jpeg?im_w=720"
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "6.11",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/7af8df42-6cdd-4e05-92d2-805dfeba1904.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/4e07bb64-208e-4b12-a9f4-e39efe7b923b.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/9d711935-b67b-48db-9738-f7f9ddac1455.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-46749301/original/95421613-ef38-4e71-928a-66ea6e4c1df6.jpeg?im_w=720",
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "9.2",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/monet/Select-4160599/original/02d36b9d-a7c8-4793-a7f9-d27ead7bb442?im_w=720",
+      "https://a0.muscache.com/im/pictures/monet/Select-4160599/original/b66f9309-f3f7-4b16-b23c-3ab00aa9b8b6?im_w=720",
+      "https://a0.muscache.com/im/pictures/97a1f5ba-d814-495d-9b10-1047c9655a75.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/52840130-1cf1-4a11-a0c5-44128ac3efe8.jpg?im_w=720"
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+
+
+];
+
+export const domes = [
+  {
+    rating: "4.81",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Caleb",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-562022596566496210/original/bc0c3fdb-cee6-4fd8-a9fa-9559613a3549.jpeg",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-562022596566496210/original/0e47e6de-a6ee-4df4-83e5-0c8a5098d2b8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-562022596566496210/original/d3b1470e-6f66-4427-bdc9-4753a3e9bcb8.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-562022596566496210/original/e1d6bed6-11d0-46ac-af40-c82666f53bcb.jpeg?im_w=720"
+    ],
+    price: "113",
+    date: "june 17-23",
+    title: "Vilhelmina Sweden",
+  },
+  {
+    rating: "4.45",
+    desc: "Beach and Ocean View",
+    host: "Hosted By Sophie",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/124fe775-8fd8-4eb5-81f7-589eb3e5a124.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/a4013d0c-1854-4ab0-9ac7-d8fa0884f818.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/6bcdc493-1b1b-41e2-af64-8bc9000db545.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/6e4b3e43-f65f-4735-ae8f-84b398a75212.jpg?im_w=720"
+    ],
+    price: "120",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "6.21",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Harden",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/6e4b3e43-f65f-4735-ae8f-84b398a75212.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-52297404/original/54c1d37f-a441-49c6-956c-e032551b3ba3.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-52297404/original/a16de226-b6b5-4855-b3a3-5c8217a45361.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-52297404/original/81e41c68-8593-4274-a03b-0b6ed78c50d6.jpeg?im_w=720",
+
+    ],
+    price: "212",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "4.69",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Justin",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-52785095/original/ca0fe67d-63fe-408c-95e8-336746f165af.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-52785095/original/fcb17f3b-82a4-4d73-9021-bbb1dde79909.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/aafe3a3a-2b33-4b73-b5da-4c97da142bac.jpg?im_w=720",
+      "https://a0.muscache.com/im/pictures/94b1dec6-9c36-424d-b3dc-0485c2c20b7c.jpg?im_w=720"
+    ],
+    price: "211",
+    date: "10-20 Oct",
+    title: "Apartment in ibadan",
+  },
+  {
+    rating: "54.4",
+    desc: "Beach and Sunset Views",
+    host: "Hosted By Ellis",
+    imgSrc: [
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48930444/original/8e6cf626-0909-42d8-9043-1ea214dde01d.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48930444/original/c1810ad1-3204-4fe7-8320-ed8f5735d3ef.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48930444/original/16523b58-d869-4578-9d24-27a31073f7dd.jpeg?im_w=720",
+      "https://a0.muscache.com/im/pictures/miso/Hosting-48930444/original/e27c6ae7-d12a-4927-afec-4fb11f68307d.jpeg?im_w=720"
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Vilhelmina Sweden",
+  },
+  {
+    rating: "453.1",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Ginnais",
+    imgSrc: [
+
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "33.4",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Sophie",
+    imgSrc: [
+
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "57.4",
+    desc: "Beach and Ocean Views",
+    host: "Hosted By Richard ",
+    imgSrc: [
+
+    ],
+    price: "300",
+    date: "25-20 May",
+    title: "Apartment in lekki",
+  },
+  {
+    rating: "6.6",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+
+  {
+    rating: "6.11",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "6.11",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+  {
+    rating: "9.2",
+    desc: "Beach and Ocean View",
+    host: "Hosted By David",
+    imgSrc: [
+
+    ],
+    price: "200",
+    date: "june 17-23",
+    title: "Villa in Ghana",
+  },
+]
 
 
 export const list4 = [

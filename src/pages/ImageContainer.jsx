@@ -41,7 +41,7 @@ export default function ImageContainer({ listOfImages }) {
 
 	return (
 		<div
-			className='aspect-square w-full relative overflow-hidden rounded-xl flex items-center bg-red-700'
+			className='aspect-square w-full relative overflow-hidden rounded-xl flex items-center bg-gray-200'
 			onMouseEnter={() => setShowNavigation(true)}
 			onMouseLeave={() => setShowNavigation(false)}>
 
@@ -61,7 +61,7 @@ export default function ImageContainer({ listOfImages }) {
 				alt=''
 			/>
 
-			<div className=" flex flex-row justify-center text-center w-full bottom-2 absolute">
+			<div className=" flex flex-row justify-center text-center w-full bottom-1 absolute">
 				<span className=" text-white text-4xl font-extrabold z-10 cursor-pointer"> 
 					..... 
 				</span>

@@ -5,10 +5,10 @@ export default function Footer() {
 
     return (
         <>
-            <Container>
-                <footer className="flex flex-row items-center fixed w-[90%] z-10 
-                 bottom-0  bg-white shadow-sm py-4 border-t-[1px]  justify-between gap-3 md:gap-0">
-                    <div className=" bg-slate-500 w-full flex justify-between items-center ">
+            {/* <Container> */}
+                <footer className="flex flex-row items-center justify-center fixed 
+                 bottom-0 left-0 bg-gray-300 shadow-sm py-4 border-t-[2px] w-full h-[50px] gap-3 md:gap-0">
+                    <div className=" bg-slate-500 w-[95%] flex justify-between items-center ">
                         <div className="flex justify-start items-center">
                             <p className="text-[14px] ">
                                 <span>2023 Airbnb,Inc.Terms.Sitemap.privacy</span>
@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
                 </footer>
 
-            </Container>
+            {/* </Container> */}
 
         </>
 

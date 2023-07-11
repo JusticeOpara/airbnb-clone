@@ -5,12 +5,13 @@ import Categories from './components/Categories'
 import { useState, useEffect } from 'react'
 import styles from "./LoadingShimmer.module.css";
 import Footer from './components/Footer';
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
-import Map from './components/Map';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// import Map from './components/Map';
 import Camping from './pages/Camping';
 import Omg from './pages/Omg';
 import Arctic from './pages/Arctic';
-// git clone https://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@github.com/justiceopara/airbnb-clone.git
+import Design from './pages/Design';
+// git clone https://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@github.com/justiceopara/theprojectname.git
 function App() {
   // const [selectedFilter, setSelectedFilter] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
@@ -47,11 +48,12 @@ function App() {
             <Route path="/" element={<Cards />} />
             <Route path="/camping" element={<Camping />} />
             <Route path="/omg" element={<Omg />} />
-            <Route path="/arctic" element={<Arctic/>}/>
+            <Route path="/arctic" element={<Arctic />} />
+            <Route path="/design" element={<Design/>} />
 
           </Routes>
 
-          {/* {selectedFilter === 0 ? <Cards list={list} /> : <Cards list={list2} />} */}
+
           {/* <Map /> */}
 
           <Footer />

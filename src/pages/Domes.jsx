@@ -1,18 +1,18 @@
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import { list } from "../utils/data";
+import { domes} from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 
 
-function Camping() {
+function Domes() {
 
     return (
         <Container>
             <div
                 className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
                        xl:grid-cols-4 2xl:grid-cols-6 gap-8 pb-20 mt-[200px] '>
-                {list?.map((card, dex) => (
+                {domes?.map((card, dex) => (
                     <div
                         key={dex}
                         className='col-span-1 cursor-pointer group bg-white '>
@@ -50,4 +50,4 @@ function Camping() {
     );
 }
 
-export default Camping;
+export default Domes;

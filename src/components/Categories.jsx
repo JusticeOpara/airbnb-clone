@@ -38,7 +38,7 @@ export const categories = [
 	{ label: 'Shared Homes', Icon: MdHouseSiding,path:"/sharedhomes" },
 	{ label: 'LakeFront', Icon: MdOutlineWater,path:"/lakefront" },
 	{ label: 'National Parks', Icon: GiKidSlide, path:"/nationalpark" },
-	{ label: 'Bed & Breakfast ', Icon: AiOutlineCoffee,path:"/breakfast" },
+	{ label: ' Breakfast ', Icon: AiOutlineCoffee,path:"/breakfast" },
 	{ label: 'OMG!', Icon: GiSpaceNeedle, path: "/omg" },
 	{ label: 'Camping', Icon: FaCampground, path: "/camping" },
 	{ label: 'A-frames', Icon: GiCampingTent,path:"/a-frames" },
@@ -69,27 +69,27 @@ const Categories = () => {
 			<div className="flex flex-row items-center ">
 
 
-				<div className='pt-[0.5rem]  flex flex-row items-center justify-between overflow-x-auto overflow-x-hidden'>
+				<div className='pt-[0.5rem]  flex flex-row items-center justify-between overfflow-x-auto overflow-x-hidden'>
 					{categories.map((item) => {
 						const { label, Icon, path } = item;
 
 						return (
-
+							<Link  to={path}>
 							<div key={label} className='flex flex-col  text-center items-center  justify-center gap-4 p-3 border-b-2 
 							hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 '
 							// onClick={() => { setSelectedFilter(label); }}
 							>
 
-								<Link  to={path}>
+								
 									<Icon size={24} />
-								</Link>
+								
 
 
-								<div
-									className="font-black grey text-[11px] text-center" >
-									<span className="text-center inline-block">{label}</span>
+								<div className="font-black text-[11px] " >
+									<span className="text-center ">{label}</span>
 								</div>
 							</div>
+							</Link>
 						);
 					})}
 
