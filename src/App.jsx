@@ -12,6 +12,7 @@ import Arctic from './pages/Arctic';
 import Design from './pages/Design';
 import Domes from './pages/Domes';
 import Map from './components/Map';
+import Caves from "./pages/Caves"
 // git clone https://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@github.com/justiceopara/theprojectname.git
 function App() {
   // const [selectedFilter, setSelectedFilter] = useState(0);
@@ -52,17 +53,15 @@ function App() {
             <Route path="/arctic" element={<Arctic />} />
             <Route path="/design" element={<Design/>} />
              <Route path="/domes" element={<Domes/>}/>
+             <Route path="/caves" element={<Caves/>}/>
              <Route path="/map" element={<Map/>}/>
+
           </Routes>
-
-
-          
 
           <Footer />
         </div>
 
-      )
-      }
+      )}
     </BrowserRouter>
   )
 }

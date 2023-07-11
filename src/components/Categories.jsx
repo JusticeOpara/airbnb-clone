@@ -35,29 +35,29 @@ import { RiEarthquakeFill } from 'react-icons/ri';
 export const categories = [
 	{ label: 'Design', Icon: MdOutlineApartment, path: "/design" },
 	{ label: 'Arctic', Icon: BsSnow, path: "/arctic" },
-	{ label: 'Shared Homes', Icon: MdHouseSiding,path:"/sharedhomes" },
-	{ label: 'LakeFront', Icon: MdOutlineWater,path:"/lakefront" },
-	{ label: 'National Parks', Icon: GiKidSlide, path:"/nationalpark" },
-	{ label: ' Breakfast ', Icon: AiOutlineCoffee,path:"/breakfast" },
+	{ label: 'SharedHomes', Icon: MdHouseSiding, path: "/sharedhomes" },
+	{ label: 'LakeFront', Icon: MdOutlineWater, path: "/lakefront" },
+	{ label: 'NationalParks', Icon: GiKidSlide, path: "/nationalpark" },
+	{ label: ' Breakfast ', Icon: AiOutlineCoffee, path: "/breakfast" },
 	{ label: 'OMG!', Icon: GiSpaceNeedle, path: "/omg" },
 	{ label: 'Camping', Icon: FaCampground, path: "/camping" },
-	{ label: 'A-frames', Icon: GiCampingTent,path:"/a-frames" },
-	{ label: 'Domes', Icon: GiLightningDome,path:"domes" },
-	{ label: 'Tiny Homes', Icon: BiHomeAlt,path:"tinyhomes" },
-	{ label: 'Treehouses', Icon: GiEvilTree,path:"treehouses" },
-	{ label: 'Surfing', Icon: GiWaveSurfer,path:"surfing"},
-	{ label: 'CountrySide', Icon: GiMountainCave,path:"countryside" },
-	{ label: 'Caves', Icon: GiCaveEntrance,path:"caves" },
-	{ label: 'Golfing', Icon: GiGolfFlag,path:"golfing" },
-	{ label: 'Cabins', Icon: MdCabin,path:"cabins" },
-	{ label: 'Earth Homes', Icon: RiEarthquakeFill,path:"earth-homes"},
-	{ label: 'Tropical', Icon: FaUmbrellaBeach , path:"tropical"},
-	{ label: 'Amazing Pools', Icon: FaSwimmingPool,path:"amazing-pool" },
-	{ label: "Barns", Icon: GiBarn,path:"barns" },
-	{ label: "Desert", Icon: GiCactus,path:"desert" },
-	{ label: "Lake", Icon: GiBoatFishing,path:"lake" },
-	{ label: "Windmills", Icon: GiWindmill ,path:"windmills"},
-	{ label: "Islands", Icon: GiIsland ,path:"islands"}
+	{ label: 'Aframes', Icon: GiCampingTent, path: "/a-frames" },
+	{ label: 'Domes', Icon: GiLightningDome, path: "domes" },
+	{ label: 'TinyHomes', Icon: BiHomeAlt, path: "/tinyhomes" },
+	{ label: 'Treehouses', Icon: GiEvilTree, path: "/treehouses" },
+	{ label: 'Surfing', Icon: GiWaveSurfer, path: "/surfing" },
+	{ label: 'CountrySide', Icon: GiMountainCave, path: "/countryside" },
+	{ label: 'Caves', Icon: GiCaveEntrance, path: "/caves" },
+	{ label: 'Golfing', Icon: GiGolfFlag, path: "golfing" },
+	{ label: 'Cabins', Icon: MdCabin, path: "cabins" },
+	{ label: 'EarthHomes', Icon: RiEarthquakeFill, path: "earth-homes" },
+	{ label: 'Tropical', Icon: FaUmbrellaBeach, path: "tropical" },
+	{ label: 'AmazingPools', Icon: FaSwimmingPool, path: "amazing-pool" },
+	{ label: "Barns", Icon: GiBarn, path: "barns" },
+	{ label: "Desert", Icon: GiCactus, path: "desert" },
+	{ label: "Lake", Icon: GiBoatFishing, path: "lake" },
+	{ label: "Windmills", Icon: GiWindmill, path: "windmills" },
+	{ label: "Islands", Icon: GiIsland, path: "islands" }
 ]
 
 
@@ -69,26 +69,24 @@ const Categories = () => {
 			<div className="flex flex-row items-center ">
 
 
-				<div className='pt-[0.5rem]  flex flex-row items-center justify-between overfflow-x-auto overflow-x-hidden'>
+				<div className='pt-[0.5rem] flex flex-row items-center justify-between overflow-x-auto overflow-x-hidden'>
 					{categories.map((item) => {
 						const { label, Icon, path } = item;
 
 						return (
-							<Link  to={path}>
-							<div key={label} className='flex flex-col  text-center items-center  justify-center gap-4 p-3 border-b-2 
-							hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 '
-							// onClick={() => { setSelectedFilter(label); }}
-							>
+							<Link to={path}>
+								<div key={label} className='flex flex-col items-center justify-center gap-2 pl-3 pr-3  pb-3 border-b-2 
+							hover:text-neutral-800 transition cursor-pointer border-transparent text-neutral-500 '>
 
+									<Icon size={24}
+										className=""
+									/>
+
+									<div className="font-black text-[11px] ">
+										{label}
+									</div>
 								
-									<Icon size={24} />
-								
-
-
-								<div className="font-black text-[11px] " >
-									<span className="text-center ">{label}</span>
 								</div>
-							</div>
 							</Link>
 						);
 					})}

@@ -12,7 +12,7 @@ export default function Footer() {
                 <Link to="/map">
                     <button type="button" className=' bg-[#333333]  touch-manipulation cursor-pointer transition-transform rounded-[26px] border-[1px] inline-flex outline-none m-0 py-[14px] px-[19px] whitespace-nowrap'>
                         <span className="!flex items-center text-white font-semibold">
-                            <span class="text-base">Show map</span><BsFillMapFill />
+                            <span className="text-base">Show map</span><BsFillMapFill />
                         </span>
 
                     </button>
@@ -21,8 +21,8 @@ export default function Footer() {
             </div>
 
 
-            <footer className="flex flex-row items-center justify-center  
-                 bg-white shadow-sm py-4 px-10 border-t-[1px]  h-[50px] gap-3 md:gap-0">
+            <footer className="flex flex-row items-center justify-center 
+                 bg-white shadow-sm py-4 px-10 border-t-[1px]  h-[50px] gap-3 md:gap-0 sm:hidden">
 
                 <div className="  w-full flex justify-between items-center ">
                     <div className="flex flex-row justify-start items-center gap-3 text-sm">

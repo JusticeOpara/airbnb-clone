@@ -7,6 +7,7 @@ export default {
         custom: ['Montserrat', 'sans-serif'],
       }
       
+      
     },
   },
   plugins: [],
