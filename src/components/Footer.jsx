@@ -21,8 +21,8 @@ export default function Footer() {
             </div>
 
 
-            <footer className="flex flex-row items-center justify-center 
-                 bg-white shadow-sm py-4 px-10 border-t-[1px]  h-[50px] gap-3 md:gap-0 sm:hidden">
+            <footer className=" flex-row items-center justify-center 
+                 bg-white shadow-sm py-4 px-10 border-t-[1px]  h-[50px] gap-3 md:gap-0 hidden">
 
                 <div className="  w-full flex justify-between items-center ">
                     <div className="flex flex-row justify-start items-center gap-3 text-sm">
