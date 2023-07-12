@@ -5,13 +5,13 @@ import ImageContainer from "./ImageContainer";
 
 
 
-function Omg() {
+export default function Omg() {
 
     return (
         <Container>
             <div
                 className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-                       xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[200px] pb-20'>
+                       xl:grid-cols-4 2xl:grid-cols-6 gap-8  mt-[180px] pb-20'>
                 {list4?.map((card, dex) => (
                     <div
                         key={dex}
@@ -59,4 +59,4 @@ function Omg() {
     );
 }
 
-export default Omg;
+

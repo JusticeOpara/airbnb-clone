@@ -1,6 +1,6 @@
 import Container from "../components/Container";
 import {  AiTwotoneStar } from "react-icons/ai";
-import { lakefront } from "../utils/data2";
+import { list2} from "../utils/data";
 import ImageContainer from "./ImageContainer";
 
 
@@ -11,7 +11,7 @@ function Lakefront() {
 		<Container>
 			<div
 				className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4
-                       xl:grid-cols-4 2xl:grid-cols-6 gap-8 pb-20 mt-[200px]'>
+                       xl:grid-cols-4 2xl:grid-cols-6 gap-8 pb-20 mt-[180px]'>
 				{list2?.map((card, i) => (
 					<div key={i} className='col-span-1 cursor-pointer group'>
 						<div className='flex flex-col gap-0 w-full h-full'>

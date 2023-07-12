@@ -331,3 +331,8 @@ export const caves = [
     },
   ]
 
+
+  export const lakefront= [
+    
+  ]
+

@@ -1012,7 +1012,7 @@ export const list = [
 ];
 
 
-export const Domes = [
+export const surfing = [
   {
     rating: "4",
     desc: "Beach and Sunset Views",

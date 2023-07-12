@@ -7,15 +7,19 @@ import styles from "./LoadingShimmer.module.css";
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Camping from './pages/Camping';
-import Omg from './pages/Omg';
+import Omg from './pages/OMG';
 import Arctic from './pages/Arctic';
 import Design from './pages/Design';
 import Domes from './pages/Domes';
 import Map from './components/Map';
 import Caves from "./pages/Caves"
-// git clone https://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@github.com/justiceopara/theprojectname.git
+import Tinyhomes from './pages/Tinyhomes';
+import Lakefront from './pages/Lakefront';
+import Surfing from "./pages/Surfing";
+import Golfing from './pages/Golfing';
+import Sharedhomes from './pages/Sharedhomes';
+//  https://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
 function App() {
-  // const [selectedFilter, setSelectedFilter] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
 
 
@@ -51,10 +55,15 @@ function App() {
             <Route path="/camping" element={<Camping />} />
             <Route path="/omg" element={<Omg />} />
             <Route path="/arctic" element={<Arctic />} />
-            <Route path="/design" element={<Design/>} />
-             <Route path="/domes" element={<Domes/>}/>
-             <Route path="/caves" element={<Caves/>}/>
-             <Route path="/map" element={<Map/>}/>
+            <Route path="/design" element={<Design />} />
+            <Route path="/domes" element={<Domes />} />
+            <Route path="/caves" element={<Caves />} />
+            <Route path="/surfing" element={<Surfing />} />
+            <Route path="/tinyhomes" element={<Tinyhomes />} />
+            <Route path="/lakefront" element={<Lakefront />} />
+            <Route path="/golfing" element={<Golfing />}/>
+            <Route path="/sharedhome" element={<Sharedhomes/>}/>
+            <Route path="/map" element={<Map />} />
 
           </Routes>
 
