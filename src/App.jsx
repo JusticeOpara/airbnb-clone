@@ -18,6 +18,7 @@ import Lakefront from './pages/Lakefront';
 import Surfing from "./pages/Surfing";
 import Golfing from './pages/Golfing';
 import Sharedhomes from './pages/Sharedhomes';
+import Treehouses from './pages/Treehouses';
 //  https://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
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -60,9 +61,10 @@ function App() {
             <Route path="/caves" element={<Caves />} />
             <Route path="/surfing" element={<Surfing />} />
             <Route path="/tinyhomes" element={<Tinyhomes />} />
+            <Route path="treehouses" elelment={<Treehouses/>}/>
             <Route path="/lakefront" element={<Lakefront />} />
             <Route path="/golfing" element={<Golfing />}/>
-            <Route path="/sharedhome" element={<Sharedhomes/>}/>
+            <Route path="/sharedhomes" element={<Sharedhomes/>}/>
             <Route path="/map" element={<Map />} />
 
           </Routes>
