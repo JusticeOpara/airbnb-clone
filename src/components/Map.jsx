@@ -24,7 +24,7 @@ export default function Map() {
   const markers = [
     {
       geocode: [48.86, 2.3522],
-      popUp: "Fuck you"
+      popUp: "Hi, I am pop up 1"
     },
     {
       geocode: [48.85, 2.3522],
