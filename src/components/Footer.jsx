@@ -1,58 +1,50 @@
 import React from "react";
 import { BsFillMapFill } from "react-icons/bs";
-import { Link ,useNavigate} from "react-router-dom";
-import { useState} from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 
 export default function Footer() {
     const [showCard, setShowCard] = useState(true);
     const navigate = useNavigate();
 
-    const handleClick = () => {
-      if (showCard) {
-        navigate('/map');
-      } else {
-        navigate('/card');
-      }
-    };
-    // return (
-    //     <div>
-    //       <button onClick={handleClick}>
-    //         {showCard ? 'Show Map' : 'Show Card'}
-    //       </button>
-    //       {showCard ? <Map /> : <Card />}
-    //     </div>
-    //   );
-    // };
-//     const [showCard, setShowCard] = useState(true);
+    console.log(showCard, "--lkglkfgdgd")
 
-//     return (
-//       <div>
-//         <button>
-//           {showCard ? (
-//             <Link to="/map">Show Map</Link>
-//           ) : (
-//             <Link to="/card">Show Card</Link>
-//           )}
-//         </button>
-//         {showCard ? <Map /> : <Card />}
-//       </div>
-//     );
-//   };
+    //     const [showCard, setShowCard] = useState(true);
+    const handleFavourited = () => {
+		setShowCard(true);
+	};
+
+	const handleUnfavourite = () => {
+		setShowCard(false);
+	};
+
 
     return (
         <div className="fixed z-10  bottom-0 left-0 w-full  ">
             <div className="flex justify-center mb-[20px] ">
-                
-                    <button onClick={handleClick} className=' bg-[#333333] touch-manipulation cursor-pointer transition-transform rounded-[26px] border-[1px] inline-flex outline-none m-0 py-[14px] px-[19px] whitespace-nowrap'>
-                        <span className="!flex items-center text-white font-semibold">
-                            <span className="text-base">{showCard ? 'Show Map' : 'Show Card'}</span><BsFillMapFill />
-                        </span>
-                        {showCard ? <Map /> : <Card />}
-                    </button>
-                
 
-              
+                <button className=' bg-[#333333] touch-manipulation cursor-pointer transition-transform rounded-[26px] border-[1px] inline-flex outline-none m-0 py-[14px] px-[19px] whitespace-nowrap'>
+                    <span className="!flex flex-row items-center text-white  font-semibold">
+                        
+                            {showCard ? (
+                                <span className="text-base flex flex-row items-center" onClick={handleUnfavourite}>
+                                    <Link to="/map" >Show Map</Link><BsFillMapFill />
+                                </span>
+
+                            ) : (
+                                <span className="text-base flex flex-row items-center" onClick={handleFavourited} >
+                                    <Link to="/"   >Show Card</Link><BsFillMapFill />
+                                </span>
+
+                            )}
+                        
+                    </span>
+
+                </button>
+
+
+
             </div>
 
 
