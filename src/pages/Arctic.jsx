@@ -19,15 +19,6 @@ function Arctic() {
                         <div className='flex flex-col gap-0 w-full h-full'>
                             <ImageContainer listOfImages={card.imgSrc} />
 
-
-                            {/* A listing’s card should be composed of details such as:
-                  The listing’s image(s)
-                  The name of the listing (e.g 5 bedroom Duplex in Ajah)
-                  The listing’s host
-                  Dates the listing is available for 
-                The cost per night for the listing
-                 Average rating for the listing(just as displayed on the home page) */}
-
                             <div className='flex justify-between items-start'>
                                 <h3 className='font-extrabold text-[100%]'>
                                     {card.title}
@@ -37,9 +28,7 @@ function Arctic() {
                                     <p>{card.rating}</p>
                                 </div>
                             </div>
-                            {/* <p className='m-0 text-gray-700 text-sm font-semibold'>
-								{card.desc}
-							</p> */}
+                           
                             <p className="m-0 text-gray-700 text-sm font-semibold">{card.host}</p>
                             <p className='m-0 text-gray-700 text-sm font-semibold'>
                                 {card.date}

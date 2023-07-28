@@ -7,7 +7,7 @@ import styles from "./LoadingShimmer.module.css";
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Camping from './pages/Camping';
-import Omg from './pages/OMG';
+import Omg from './pages/Omg';
 import Arctic from './pages/Arctic';
 import Design from './pages/Design';
 import Domes from './pages/Domes';
@@ -19,7 +19,7 @@ import Surfing from "./pages/Surfing";
 import Golfing from './pages/Golfing';
 import Sharedhomes from './pages/Sharedhomes';
 import Treehouses from './pages/Treehouses';
-//  https://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
+
 
 
 
@@ -64,7 +64,7 @@ function App() {
             <Route path="/caves" element={<Caves />} />
             <Route path="/surfing" element={<Surfing />} />
             <Route path="/tinyhomes" element={<Tinyhomes />} />
-            <Route path="treehouses" elelment={<Treehouses />} />
+            <Route path="/treehouses" element={<Treehouses />} />
             <Route path="/lakefront" element={<Lakefront />} />
             <Route path="/golfing" element={<Golfing />} />
             <Route path="/sharedhomes" element={<Sharedhomes />} />
@@ -72,7 +72,7 @@ function App() {
 
           </Routes>
 
-          {/* <Map /> */}
+        
 
 
           <Footer />
